@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini Project-Responsive form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<center>
+<body>
+	<h1 id="title-line">Survey form</h1>
+	<div id="survey-form">
+		<center>
+		<form action="">
+			<table id="content-table">
+				<tr>
+					<td>
+						<label id="label">*Name: </label>
+					</td>
+					<td>
+						<input type="text" name="fname" placeholder="Enter your name" required autofocus autocomplete>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label id="label">*Email: </label>
+					</td>
+					<td>
+						<input type="Email" name="email" placeholder="Enter your name" required autofocus autocomplete>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label id="label">*Age: </label>
+					</td>
+					<td>
+						<input type="number" name="fname" placeholder="Enter your name" required autofocus autocomplete>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Which option best describes you? </label>
+					</td>
+					<td>
+						<select name="select-role">
+							<option>Student</option>
+							<option>Teacher</option>
+							<option>Professional</option>
+							<option>Other</option>
+						</select>						
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>How likely are you to recommed a friend? </label>
+					</td>
+					<td>
+						<input type="radio" name="recommed">Definitely <br>
+						<input type="radio" name="recommed">Somewhat <br>
+						<input type="radio" name="recommed">Not sure <br>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label id="label">What do you like most in </label>
+					</td>
+					<td>
+						<select name="language-choice">
+							<option>C/C++</option>
+							<option>Java</option>
+							<option>Python</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Things that should be improved in the future(Check that applies) </label>
+					</td>
+					<td>
+						<input type="checkbox" name="checkbox">Front-end projects <br>
+						<input type="checkbox" name="checkbox">Back-end projects <br>
+						<input type="checkbox" name="checkbox">Data visualization<br>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<center>
+			<input type="submit" name="submit" id="submit-btn">
+			<input type="reset" name="reset" id="reset-btn">
+			</center>
+			</center>
+		</form>
+	</div>
+
+
+</body>
+</center>
+</html>
